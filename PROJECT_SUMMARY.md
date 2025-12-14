@@ -39,7 +39,7 @@ from url_utils import normalize_url, extract_registered_domain as extract_domain
 ### 3. **API 인증 설정 확인**
 - ✅ `.env` 파일에 올바른 OpenAPI 키 설정 완료
 - ✅ API 엔드포인트: `https://api.odcloud.kr/api/15109780/v1/uddi:707478dd-938f-4155-badb-fae6202ee7ed`
-- ✅ Service Key: `4fdb0aecbc5127c1a125a2fd96a216fc0527c3d8e96e98fa33751992c2b05058`
+- ✅ Service Key: `*`
 
 ### 4. **Mock 피싱 사이트 개선**
 다양한 피싱 특성 테스트를 위한 링크 추가:
@@ -257,6 +257,7 @@ term_project3/
 5. [ ] 배치 분석 API (한 번에 여러 URL)
 6. [ ] 상세 분석 리포트 PDF 생성
 7. [ ] 화이트리스트/블랙리스트 관리
+8. [ ] 다른 검증 DB의 API 호출을 통해 정확도 향상
 
 ---
 
