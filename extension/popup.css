@@ -1,0 +1,17 @@
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+.wrap { width: 360px; padding: 12px; }
+.title { font-weight: 800; font-size: 14px; }
+.sub { margin-top: 4px; font-size: 12px; opacity: 0.75; }
+
+.btns { display: flex; gap: 8px; margin-top: 10px; }
+button { padding: 6px 10px; border-radius: 8px; border: 1px solid #ddd; background: #fff; cursor: pointer; }
+button.danger { border-color: #ffb3b3; }
+
+.list { margin-top: 10px; display: grid; gap: 8px; }
+.card { border: 1px solid #eee; border-radius: 10px; padding: 10px; }
+.row1 { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.verdict { font-weight: 800; }
+.score { font-weight: 800; }
+.url { margin-top: 6px; font-size: 12px; word-break: break-all; opacity: 0.9; }
+.reasons { margin-top: 6px; font-size: 12px; opacity: 0.85; }
+.meta { margin-top: 6px; font-size: 11px; opacity: 0.7; }
